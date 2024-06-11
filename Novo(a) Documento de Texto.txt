@@ -1,0 +1,21 @@
+WEB:
+
+django - requests - pytest
+ecxel & python
+
+
+Automação Robótica de Processos(RPA):
+
+Selenium, robocorp, botcity, pywinauto, AutoPy
+
+Ciência de dados:
+
+Numpy
+Pandas
+Matplotlib
+Seaborn
+Scokit-Learn
+SciPy
+TensorFlow
+PyTorch
+Theano
