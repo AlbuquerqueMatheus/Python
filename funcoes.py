@@ -7,3 +7,9 @@ while len(lista) != 4:
     lista.append(num)
 print(media(lista))
 
+'''
+*args e **Kwargs
+recebe uma tupla e um dicionarios respectivamente
+''' 
+
+

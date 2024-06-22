@@ -26,3 +26,20 @@ print(f'dicionario atualizado: {dicionario}')
 #Iterar sobre um dicionário e acessar seus pares chave-valor 
 for chave, valor in dicionario.items():
     print(f"{chave}: {valor}")
+
+#{}.get saber se um elemento existe ou não no dicionarios
+contatos = {
+    "matheuskaral@gmail.com": {"nome": "matheus", "telefone": "8599646-2926"}
+}
+print(contatos.get("nome"))
+print(contatos.get("chave", {}))
+print(contatos.get("matheuskaral@gmail.com", {}))
+
+#del
+contatos = {
+    "matheuskaral@gmail.com": {"nome": "matheus", "telefone": "8599646-2926"},
+    "alisson@gmail.com": {"nome": "matheus", "telefone": "8599646-2926"}
+}
+
+del contatos["matheuskaral@gmail.com"]["nome"]
+del contatos["alisson@gmail.com"]

@@ -45,3 +45,23 @@ print(lista7)
 #.count(elemento) mostra quantas vezes elemento aparece na lista.
 lista8 = [1,2,1,1,4,5,1]
 print(f'.count(elemento): {lista8.count(1)}')
+
+#[].copy()
+lista9 = [5, "matheus", 9,8]
+copia = lista9.copy()
+
+print(id(copia), id(lista9))
+
+copia[1] = "Muniz"
+
+print(lista9)
+print(copia)
+
+#[].index() primeira ocorrencia de um determinado objeto
+lista10 = [8,6,8,2]
+print(lista10.index(8))
+
+#[].remove() retira a primeira ocorrencia do objeto indicado
+lista11 = ["matheus", "muniz", "de", "albuquerque"]
+lista11.remove("de")
+print(lista11)
